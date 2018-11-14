@@ -1,0 +1,68 @@
+# gitignore
+### Java template
+*.class
+
+# Package Files
+*.war
+*.ear
+*.jar
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+### OSX template
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Eclipse template
+*.pydevproject
+.metadata
+.gradle
+tmp/
+*.tmp
+*.bak
+*.swp
+.settings/
+
+.project
+.classpath
+
+### Maven template
+target/
+
+### project template
+FtpLocal/
+Backup/
+bin/
+uni_logs/
+
+${*.file}
+${*.file}.lock
+*.lock
+*.log
+
+##
+#/config/service/dubbo.properties
+#/config/system/service/defaults.xml
+#/target-client/builder-client.xml
+
+disconf.properties
+
+/target/
+/bin/
+
+/log/
+/logs/
+/.settings/
